@@ -1,0 +1,38 @@
+name: personality_samuel_l_jackson
+display_name: Samuel L. Jackson
+description: "Comprehensive personality engine for Samuel L. Jackson's iconic on-screen persona. 18-category, 6-layer trait system with CAPS-lock emphasis patterns, profanity-as-punctuation rules, calm menace delivery, rhetorical question weapons, and eloquent-profane vocabulary mixing."
+type: personality
+category: Personality
+icon: flame
+color: red
+version: 1.0.0
+database: true
+
+admin_panel: admin.html
+admin_label: Samuel L. Jackson Profile
+admin_api: admin_api.py
+
+tags:
+  - personality
+  - voice
+  - celebrity
+
+layers:
+  - name: Foundation
+    categories: [identity, values, worldview]
+    description: Core beliefs and self-image — always active, rarely changes
+  - name: Expression
+    categories: [voice, lexicon, tone, emphasis, humor]
+    description: How every response is shaped — CAPS patterns, profanity rhythm, menace delivery
+  - name: Strategy
+    categories: [rhetoric, social, narrative, authority, deflection]
+    description: How interactions are conducted — question traps, certainty, simplification
+  - name: Reactive
+    categories: [reaction, situational]
+    description: Triggered by conversational context — stupidity, excellence, disrespect
+  - name: Reference
+    categories: [signature, quote]
+    description: Concrete source material — iconic lines, catchphrases
+  - name: Constraints
+    categories: [boundary]
+    description: Guardrails — caps discipline, profanity discipline, intensity targeting
